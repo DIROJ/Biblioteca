@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#id-hein{
+    width: 99.1vw;
+    height: 12vh;
+    float: left;
+    background-color: #C9FFE2;
+}
+div{
+    width: 8vw;
+    height: 8vh;
+    float: left;
+    background-color: deepskyblue;
+}
+form{
+    width: 8vw;
+    height: 8vh;
+    float: left;
+    background-color: darkgreen;
+}
+#id-ul{
+    margin: 2vh 5vw 2vh 20vw;
+}
+aside{
+    width: 8vw;
+    height: 100vh;
+    float: left;
+    background-color: #C9FFE2;
+}
+nav{
+    width: 8vw;
+    height: 100vh;
+    float: left;
+    background-color: transparent;
+}
+main{
+    width: 87.07vw;
+    height: 100vh;
+    float: left;
+    background-color: white;
+}
+footer{
+    width: 99.1vw;
+    height: 8vh;
+    float: left;
+    background-color: green;
+}
