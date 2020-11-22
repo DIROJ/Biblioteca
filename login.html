@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+    <head>
+        <!--Metadatos relevantes-->
+        <title>Iniciar Sesión</title>                                          <!--Modificar Titulo de Página-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/login.css">                        <!--Modificar los estilos-->
+        <script type="text/javascript" src=".js" defer></script>
+        <link rel="shortcut icon" href="images/icono.png" type="image/png">
+
+        <!--Metadatos "irrelevantes"-->
+        <meta name="description" content="Esta es la pagina de Inicio de Sesión">
+        <meta name="author" content="Jacob Emmanuel Díaz Rodríguez, 
+        Gomez Vargas Jorge Damian, Heredia Avila Luis Antonio,
+        Maldonado Mora Aleida Judith, Zuñiga Zepeda Isaac Emmanuel">
+    </head>
+
+    <body>
+        <header class="cabecera">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"><img class="img-menu" src="images/menu.png" alt="menú"></label>
+                <a href="#"><img class="icono" src="images/icono.png" alt="ícono"></a>
+                <h1 class="nombre">Biblíon</h1>
+
+                <!--Formulario de Búsqueda-->
+                <form action=".php" method="" target="" class="buscar">
+                   <input type="search" name="busqueda" list="" class="buscar-input">
+                   <input type="submit" value="Buscar" class="buscar-btn">
+                </form>
+
+                <ul class="login">
+                    <li><a href="" class="log-a">Iniciar Sesión</a></li><br>              <!--Agregar Hipervínculo-->
+                    <li><a href="" class="log-a">Registrarse</a></li>                     <!--Agregar Hipervínculo-->
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+
+            <!--Formulario de Inicio de Sesión-->
+            <form action=".php" method="" class="inicio-sesion">
+                <h1 class="title-form">Inicio de Sesión</h1>
+                <br><br><br>
+                <label for="correo" class="letra-form">Correo Electrónico</label><br><br>
+                <input type="email" name="correo" required class="input-form"><br><br><br><br>
+
+                <label for="pass" class="letra-form">Contraseña</label><br><br>
+                <input type="password" name="pass" required class="input-form"><br>
+
+                <input type="submit" name="login" value="Iniciar Sesión" class="btn-form"><br><br><br><br>
+                <a href="#" class="vinculo-form">Regístrate</a> 
+            </form>
+
+        </main>
+        
+        
+        <footer>
+            <p class="info">Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect"
+            title="Pixel perfect" class="footer-a">Pixel perfect</a> y <a href="https://www.flaticon.es/autores/freepik"
+                title="Freepik" class="footer-a">Freepik</a>  from <a href="https://www.flaticon.es/" 
+            title="Flaticon" class="footer-a">www.flaticon.es</a>
+
+        </footer>
+
+        <!--Menú-->
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->           
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                </nav>
+                <label for="btn-menu" class="icon-equis"><img class="img-menu-cerrar" src="images/cancelar.png" alt="cerrar"></label>
+            </div>
+        </div>
+
+    </body>
+</html>
