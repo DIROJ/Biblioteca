@@ -170,7 +170,7 @@ main{
 .input-form{
     border-radius: 7px;
     height: 3vh;
-    width: 15vw;
+    width: 20vw;
     margin-bottom: 5.5vh;
     border: 1px solid #064789;
     padding-left: .5vw;
@@ -195,15 +195,7 @@ main{
     background-color: #2FDF84;
     cursor: pointer;
 }
-.vinculo-form{
-    text-decoration: none;
-    float: right;
-    margin-right: 5vw;
-    color: #064789;
-}
-.vinculo-form:hover{
-    color: #2FDF84;
-}
+
 
 
 /*PIE DE PÁGINA*/
