@@ -12,8 +12,8 @@
     background-color: #00B871;
 }
 .icono{
-    width: 85px;
-    height: 85px;
+    width: 4.5vw;
+    height: 8.4vh;
     float: left;
     margin: 1.5vh 2vw 1.5vh 2vw; /* Superior, Derecho, Inferior, Izquierdo*/
 }
@@ -74,12 +74,12 @@ li{
     color:#064789;
 }
 .img-menu-cerrar{
-    width: 25px;
-    height: 25px;
+    width: 1.5vw;
+    height: 2.7vh;
 }
 .img-menu{
-    width: 37px;
-    height: 37px;
+    width: 2vw;
+    height: 3.7vh;
     margin-left: 2vw;
     margin-top: 4vh;
     float: left;
