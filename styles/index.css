@@ -52,6 +52,7 @@
     border: none;
     border-radius: 7px;
     color: #EFEFEF;
+    font-size: 1.5vh;
 }
 .buscar-btn:hover{
     cursor: pointer;
@@ -59,9 +60,9 @@
     background-color: #EFEFEF;
 }
 .login{
-    margin: 3.5vh 5vw 0vh 25vw  ;
+    margin: 3.5vh 5vw 10vh 20vw  ;
     float: left;
-    
+    font-size: 1.6vh;
 }
 li{
     list-style-type: none;
@@ -155,23 +156,24 @@ main{
     display: block;
     margin: auto;
     margin-top: 15vh;
-    border-radius: 20px;
     background-color: #D5DBE1;
-    border: 2px solid #2FDF84;
+    border: 2px solid #c7c1bf;
     color: #064789;
 }
 .title-form{
-    margin: 5vh 2vw 1.5vh 4vw; /* Superior, Derecho, Inferior, Izquierdo*/;
+    margin: 5vh 2vw 5vh 4vw; /* Superior, Derecho, Inferior, Izquierdo*/;
 }
 .input-form, .letra-form{
     margin-left: 4vw;
+    font-size: 1.6vh;
 }
 .input-form{
     border-radius: 7px;
     height: 3vh;
     width: 15vw;
+    margin-bottom: 5.5vh;
     border: 1px solid #064789;
-   padding-left: .5vw;
+    padding-left: .5vw;
 }
 .input-form:focus{
     color: #064789;
@@ -181,13 +183,13 @@ main{
 }
 .btn-form{
     float: right;
-    margin: 5vh 5vw;
+    margin-right: 5vw;
     margin-bottom: 2.5vh;
     background-color: #064789;
     border: none;
     border-radius: 5px;
     padding: 8px;
-    color: #D5DBE1; 
+    color: #D5DBE1;
 }
 .btn-form:hover{
     background-color: #2FDF84;
@@ -195,7 +197,8 @@ main{
 }
 .vinculo-form{
     text-decoration: none;
-    margin-left: 25.5vw;
+    float: right;
+    margin-right: 5vw;
     color: #064789;
 }
 .vinculo-form:hover{
