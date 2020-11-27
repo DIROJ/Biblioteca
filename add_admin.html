@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es-MX">
+
+    <head>
+        <!--Metadatos relevantes-->
+        <title>Añadir</title>                                          <!--Modificar Titulo de Página-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/add_admin.css">                        <!--Modificar los estilos-->
+        <script type="text/javascript" src="scripts/add-admin.js" defer></script>  <!--Modificar los scripts-->
+        <link rel="shortcut icon" href="images/icono.png" type="image/png">
+
+        <!--Metadatos "irrelevantes"-->
+        <meta name="description" content="Esta es la pagina de Inicio de Sesión">
+        <meta name="author" content="Jacob Emmanuel Díaz Rodríguez, 
+        Gomez Vargas Jorge Damian, Heredia Avila Luis Antonio,
+        Maldonado Mora Aleida Judith, Zuñiga Zepeda Isaac Emmanuel">
+    </head>
+
+    <!--Cuerpo-->
+    <body id="cuerpo">
+        <!--Barra Superior-->
+        <header class="cabecera">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"><img class="img-menu" src="images/menu.png" alt="menú" onclick="barra()"></label>
+                <a href="index.html">                                            <!--Hipervínculo-->
+                    <img class="icono" src="images/icono.png" alt="ícono">
+                </a>
+                <h1 class="nombre">Biblíon</h1>
+
+                <!--Formulario de Búsqueda-->
+                <form action=".php" method="" target="" class="buscar">
+                   <input type="search" name="busqueda" list="" class="buscar-input">
+                   <input type="submit" value="Buscar" class="buscar-btn">
+                </form>
+
+                <ul class="login">
+                    <li><a href="login.html" class="log-a">Iniciar Sesión</a></li><br>              <!--Agregar Hipervínculo-->
+                    <li><a href="sign-up.html" class="log-a">Registrarse</a></li>                     <!--Agregar Hipervínculo-->
+                </ul>
+            </div>
+        </header>
+
+        <!--Menú-->
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="index.html">Inicio</a>                      <!--Agregar Hipervínculo-->           
+                    <a href="category.html">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Género</a>                      <!--Agregar Hipervínculo-->
+                </nav>
+                <label for="btn-menu" class="icon-equis">
+                    <img class="img-menu-cerrar" src="images/cancelar.png" alt="cerrar" onclick="barraX()">
+                </label>
+            </div>
+        </div>
+
+        <!--Contenido Principal-->
+        <main>
+            <div class="cont">
+                <h1 class="head">Añadir Libro</h1>
+                <form action="add_admin.php" method="POST" enctype="multipart/form-data" class="add-form">
+
+                    <div class="div-titulo">
+                        <label for="titulo" class="letra-form">Título</label><br>
+                        <input type="text" name="titulo" required class="input-form">
+                    </div>
+    
+                    <div class="div-autor">
+                        <label for="autor" class="letra-form">Autor</label><br>
+                        <input type="text" name="autor" required class="input-form">
+                    </div><br>
+    
+                    <div class="div-editorial">
+                        <label for="editorial" class="letra-form">Editorial</label><br>
+                        <input type="text" name="editorial" required class="input-form">
+                    </div><br>
+    
+                    <div class="div-fecha">
+                        <label for="fecha" class="letra-form">Fecha de Publicación</label><br>
+                        <input type="date" name="fecha" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" class="input-form">
+                    </div>
+                    <div class="div-ISBN">
+                        <label for="ISBN" class="letra-form">ISBN</label><br>
+                        <input type="text" name="ISBN" required class="input-form">
+                    </div>
+                    <div class="div-genero">
+                        <label for="genero" class="letra-form">Género</label><br>
+                        <input type="text" name="genero" required class="input-form">
+                    </div>
+                    <div class="div-descripcion">
+                        <label for="descripcion" class="letra-form">Descripción</label><br>
+                        <textarea name="descripcion" required class="input-form-area" rows="7" cols="70"></textarea>
+                    </div>
+                    
+                    <div class="div-imagen">
+                        <label for="imagen" class="letra-form">Imagen</label><br>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="2000000" /><br>
+                        <input type="file" name="imagen" required class="input-form-img">
+                    </div>
+    
+                    
+    
+                    <div class="div-btn">
+                        <input type="submit" name="subir" value="Aceptar" class="btn-form" ">
+                    </div><br>
+                    
+                </form>
+            </div>
+        </main>
+        
+        
+        <!--Pie de Página-->
+        <footer>
+            <p class="info">
+                Iconos diseñados por 
+                <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect" class="footer-a">Pixel perfect</a>,
+                <a href="https://www.flaticon.es/autores/freepik" title="Freepik" class="footer-a">Freepik</a>,
+                <a href="https://www.flaticon.es/autores/anatoly" title="Anatoly" class="footer-a">Anatoly</a>
+                from <a href="https://www.flaticon.es/" title="Flaticon" class="footer-a">www.flaticon.es</a>
+            </p>
+        </footer>
+
+    </body>
+</html>
