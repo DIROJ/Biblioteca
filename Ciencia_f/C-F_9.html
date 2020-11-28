@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+    <head>
+        <!--Metadatos relevantes-->
+        <title>Libro</title>                                          <!--Modificar Titulo de Página-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/C-F.css">                        <!--Modificar los estilos-->
+        <script type="text/javascript" src="scripts/book.js" defer></script>  <!--Modificar los scripts-->
+        <link rel="shortcut icon" href="images/icono.png" type="image/png">
+
+        <!--Metadatos "irrelevantes"-->
+        <meta name="description" content="Esta es la pagina de Inicio de Sesión">
+        <meta name="author" content="Jacob Emmanuel Díaz Rodríguez, 
+        Gomez Vargas Jorge Damian, Heredia Avila Luis Antonio,
+        Maldonado Mora Aleida Judith, Zuñiga Zepeda Isaac Emmanuel">
+    </head>
+
+    <!--Cuerpo-->
+    <body id="cuerpo">
+        <!--Barra Superior-->
+        <header class="cabecera">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"><img class="img-menu" src="images/menu.png" alt="menú" onclick="barra()"></label>
+                <a href="index.html">                                            <!--Hipervínculo-->
+                    <img class="icono" src="images/icono.png" alt="ícono">
+                </a>
+                <h1 class="nombre">Biblíon</h1>
+
+                <!--Formulario de Búsqueda-->
+                <form action=".php" method="" target="" class="buscar">
+                   <input type="search" name="busqueda" list="" class="buscar-input">
+                   <input type="submit" value="Buscar" class="buscar-btn">
+                </form>
+
+                <ul class="login">
+                    <li><a href="login.html" class="log-a">Iniciar Sesión</a></li><br>              <!--Agregar Hipervínculo-->
+                    <li><a href="sign-up.html" class="log-a">Registrarse</a></li>                     <!--Agregar Hipervínculo-->
+                </ul>
+            </div>
+        </header>
+
+        <!--Menú-->
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="index.html">Inicio</a>                      <!--Agregar Hipervínculo-->           
+                    <a href="category.html">Académicos</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Terror</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Ciencia Ficción</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Fantasía</a>                      <!--Agregar Hipervínculo-->
+                    <a href="category.html">Cuentos Infatiles</a>                      <!--Agregar Hipervínculo-->
+                </nav>
+                <label for="btn-menu" class="icon-equis">
+                    <img class="img-menu-cerrar" src="images/cancelar.png" alt="cerrar" onclick="barraX()">
+                </label>
+            </div>
+        </div>
+
+        <!--Libro--> 
+        <main>
+        <img id="Img-libro" class="efectolupa" src="https://urano.blob.core.windows.net/share/i_portadas/100000119/100000119b.jpg">
+            <article id="info-libro">
+                <p id="titulo"><b>El ultimo mago</b></p>
+                <p id="autor">Lisa Maxwell</p>
+                <p id="descripcion"><b>Editorial: </b>PUCK
+                <br><b>Publicación: </b>2018
+                <br><b>ISBN: </b>9788492918072
+                    <br><br><b>Descripción: </b>En la Nueva York actual, la magia prácticamente se ha extinguido. Las pocas personas que quedan con afinidad para ella los mageus viven en las sombras, ocultando lo que son. Todo aquel mageus que entra en Manhattan queda atrapado por el Umbral, una barrera de energía oscura que los confina en la isla. Cruzar el Umbral significa perder sus poderes y, a menudo, también la vida. Estrella es una ladrona a la que han adiestrado desde niña para robar artefactos mágicos en poder de la siniestra Orden que creó el Umbral. Gracias a su habilidad innata para manipular el tiempo, es capaz de viajar al pasado para hurtar dichos artefactos antes de que la Orden se dé cuenta siquiera de su presencia. No obstante, Estrella tendrá que recurrir a todos sus años de entrenamiento para llevar a cabo una última misión: retroceder hasta 1902 para robar un antiguo libro que contiene los secretos de la Orden y del Umbral antes de que el mago pueda destruirlo y condenar a los mageus a un futuro sin esperanza. Pero la vieja Nueva York es una ciudad peligrosa controlada por despiadadas bandas criminales y sociedades secretas, un mundo en el que el propio aire está cargado de magia.         </p>
+                <a id="apartar" href="apartar.html">Apartar</a>
+
+                <form id="calific">
+  		<p class="clasificacion">
+    	<input id="radio1" type="radio" name="estrellas" value="5"><!--
+    	--><label for="radio1">★</label><!--
+    	--><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    	--><label for="radio2">★</label><!--
+    	--><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    	--><label for="radio3">★</label><!--
+    	--><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    	--><label for="radio4">★</label><!--
+    	--><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    	--><label for="radio5">★</label>
+  		</p>
+				</form>
+                </article>
+            </main>
+               <!--Pie de Página-->
+        <footer>
+            <p class="info">
+                Iconos diseñados por 
+                <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect" class="footer-a">Pixel perfect</a>,
+                <a href="https://www.flaticon.es/autores/freepik" title="Freepik" class="footer-a">Freepik</a>,
+                <a href="https://www.flaticon.es/autores/anatoly" title="Anatoly" class="footer-a">Anatoly</a>
+                from <a href="https://www.flaticon.es/" title="Flaticon" class="footer-a">www.flaticon.es</a>
+            </p>
+        </footer>
+
+    </body>
+</html>
