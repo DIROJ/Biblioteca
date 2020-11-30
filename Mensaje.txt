@@ -11,3 +11,5 @@ Tareas por el momento (a realizar):
 -Crear páginas de redireccionamiento con mensajes para las credenciales inválidas
 -No tenemos nada de información de Damian
 -Revisar los registros de la base (Los que tienen poca descripción, los que tienen ISBN incorrecto y si no se puede acceder a algún libro es probable que sea por la base)
+
+PD: No se olviden de modificar los metadatos de las páginas que creén
