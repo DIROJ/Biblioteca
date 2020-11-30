@@ -1,6 +1,7 @@
 Usuario en phpMyAdmin (con todos los permisos): Administrador, 9XRhqVbLCrSSnC1Z.
 
 Tareas por el momento (a realizar):
+-Configurar la barra de búsqueda
 -Configurar subir imágenes y como tener acceso a estas (add_admin.html, add_admin.php y todas las páginas donde aparecen libros -respectivamente-)
 -Configurar los botones de apartado
 -Crear página donde el administrador puede ver los apartados (es probable que se tenga que agregar a la base de datos)
