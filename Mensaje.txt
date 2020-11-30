@@ -1,1 +1,13 @@
 Usuario en phpMyAdmin (con todos los permisos): Administrador, 9XRhqVbLCrSSnC1Z.
+
+Tareas por el momento (a realizar):
+-Configurar subir imágenes y como tener acceso a estas (add_admin.html, add_admin.php y todas las páginas donde aparecen libros -respectivamente-)
+-Configurar los botones de apartado
+-Crear página donde el administrador puede ver los apartados (es probable que se tenga que agregar a la base de datos)
+-Crear página donde el usuario puede ver los apartados
+-Crear página de perfil de usuario
+-Crear página de perfil de administrador
+-Crear páginas en las que el administrador pueda modificar los libros (index, category, book, add_admin)
+-Crear páginas de redireccionamiento con mensajes para las credenciales inválidas
+-No tenemos nada de información de Damian
+-Revisar los registros de la base (Los que tienen poca descripción, los que tienen ISBN incorrecto y si no se puede acceder a algún libro es probable que sea por la base)
